@@ -11,6 +11,9 @@ const TableResponsive = ({ users, deleteuser, setusers }) => {
   
   return (
     <table>
+      <caption>
+        <h5 className="blue-text text-darken-2">Registered Users</h5>
+      </caption>
       <thead>
         <tr>
           <th>First Name</th>
@@ -30,10 +33,10 @@ const TableResponsive = ({ users, deleteuser, setusers }) => {
               <td>{user.email}</td>
               <td>
                 <button
-                  className="btn waves-effect waves-light"
+                  className="btn-floating red btn-small"
                   onClick={() => removeUserItem(user.email)}
                 >
-                  <i className="material-icons">delete</i>
+                  <i className="tiny material-icons">clear</i>
                 </button>
               </td>
             </tr>

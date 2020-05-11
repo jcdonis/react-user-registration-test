@@ -1,5 +1,5 @@
 .content-block {
-  padding: 30px 0;
+  padding: 10px 0 0 0;
 }
 
 nav,
@@ -10,3 +10,20 @@ nav,
 .large.material-icons {
   font-size: 40px;
 }
+
+.title{
+  margin-bottom: 20px;
+}
+
+.empty-msg{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.empty-msg > img{
+  max-width: 150px;
+}
+
